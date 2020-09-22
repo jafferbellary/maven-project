@@ -63,7 +63,7 @@ pipeline {
 					echo "Application is deployed successfully on Tomcat in production environment"	
 				}
 				failure{
-					echo "Failed to deploy an application in production environment"
+					echo "Failed to deploy an application in production environment  "
 				}
 			}
         }
